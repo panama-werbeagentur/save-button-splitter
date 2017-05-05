@@ -1,0 +1,16 @@
+{
+	"name": "panama/save-button-splitter",
+	"description": "Panama TYPO3 Ext to split the save button into single buttons",
+	"type": "typo3-cms-extension",
+	"preferred-install": "source",
+	"homepage": "http://www.panama.de/",
+	"version": "2017.18.0",
+	"autoload": {
+		"psr-4": {
+			"Panama\\SaveButtonSplitter\\": "Classes/"
+		}
+	},
+	"require": {
+		"typo3/cms": ">=6.2"
+	}
+}
